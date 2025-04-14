@@ -1,9 +1,58 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
-}
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Mouse Gamer RGB",
+        "imagen": "https://placehold.co/300x200?text=Mouse+RGB",
+        "descripcion": "Mouse gamer con luces RGB, alta precisión.",
+        "precio": 25.99,
+        "cantidad": 10,
+        "categoria": "Periféricos"
+      },
+      {
+        "id": 2,
+        "nombre": "Teclado Mecánico",
+        "imagen": "https://placehold.co/300x200?text=Teclado+Mecánico",
+        "descripcion": "Teclado con switches azules y retroiluminación.",
+        "precio": 45.50,
+        "cantidad": 5,
+        "categoria": "Periféricos"
+      }
+    ],
+    "noticias": [
+      {
+        "id": 1,
+        "titulo": "Nueva tarjeta gráfica de NVIDIA",
+        "imagen": "https://placehold.co/400x200?text=NVIDIA+News",
+        "contenido": "NVIDIA lanza su nueva serie con mejoras de rendimiento.",
+        "fecha": "2025-04-13"
+      },
+      {
+        "id": 2,
+        "titulo": "Intel anuncia procesadores gaming",
+        "imagen": "https://placehold.co/400x200?text=Intel+News",
+        "contenido": "Intel presenta CPUs optimizados para gaming competitivo.",
+        "fecha": "2025-04-10"
+      }
+    ],
+    "usuarios": [
+      {
+        "id": 1,
+        "nombre": "Admin",
+        "email": "admin@tienda.com",
+        "password": "admin123",
+        "rol": "admin"
+      },
+      {
+        "id": 2,
+        "nombre": "Rafael Reyes",
+        "email": "rafael@cliente.com",
+        "password": "cliente123",
+        "rol": "cliente",
+        "telefono": "8295551234",
+        "direccion": "Santo Domingo, RD"
+      }
+    ],
+    "pedidos": []
+  }
+  
